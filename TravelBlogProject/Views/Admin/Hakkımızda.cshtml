@@ -1,0 +1,29 @@
+﻿@using TravelBlogProject.Models.Classes
+@model List<Hakkımızda>
+
+@{
+    ViewBag.Title = "Hakkımızda";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hakkımızda</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>FotoUrl</th>
+        <th>Açıklama</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.FotoUrl</td>
+            <td>@x.Aciklama.Substring(0,10)...</td>
+            <td><a href="/Admin/GetAbout/@x.ID" class="btn btn-info">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+

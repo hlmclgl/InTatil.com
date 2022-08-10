@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>InTatil</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/web/images/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="~/web/css/style.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/web/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/web/js/jquery.min.js"></script>
+    <script src="~/web/js/responsiveslides.min.js"></script>
+    
+
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 1
+            $("#slider1").responsiveSlides({
+                auto: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="wrap">
+            <a href="/Default/Index/"><img src="~/web/images/oto-removebg-preview.png" alt="" style="width:270px ; height:150px" /></a>
+            <div class="con-right">
+                <div class="grid1-l-img">
+                    <img src="https://cdn-icons.flaticon.com/png/128/3992/premium/3992601.png?token=exp=1659800449~hmac=dd6804d45fbaebc472bbf900df2551b3" alt="" style="width:25px ; height:20px">
+                </div>
+                <div class="grid1-l-desc">
+                    <p>Whatsapp : +91 00000-55555</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="wrap">
+            <ul id="nav">
+                <li><a href="/Default/Index/">Ana Sayfa</a></li>
+                <li><a class="hsubs" href="/About/Index/">Hakkımızda</a></li>
+                <li><a class="hsubs" href="/Blog/Index/">Bloğum</a></li>
+                <li><a href="/Contact/Index">İletişim</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class"content">
+        @RenderBody()
+    </div>
+    <div class="footer-bottom">
+        <div class="wrap">
+            <div class="copy">
+                <p>Copyright &copy; 2022 InTatil.com | <a href="/Admin/Index"> All Rights Reserved</a> | This Project Was Developed By <a href="https://github.com/hlmclgl">Ahmet Hilmi Çiloğlu</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

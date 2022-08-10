@@ -1,0 +1,61 @@
+﻿@model TravelBlogProject.Models.Classes.Iletisim
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<div class="contact">
+    <div class="wrap">
+        <div class="contact-top">
+            <h3>Benimle İletişime Geç</h3>
+            <p> Gidip görmemi, gezmemi istediğiniz yerleri benimle paylaşın. Danışmak yada tavsiye vermek için çekinmeden yazabilirsiniz...</p>
+        </div>
+        <div class="form">
+            <form class="cmxform" method="post">
+                <div>
+                    @Html.TextBoxFor(x => x.AdSoyad, new { @class = "form-control", @placeholder="İsim:" })
+                </div>
+                <div>
+                    @Html.TextBoxFor(x => x.Konu, new { @class = "form-control", @placeholder = "Konu:" })
+                </div>
+                <div>
+                    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control", @placeholder = "Mail:" })
+                </div>
+                <div>
+                    <p><button style="background-color: #6e2157; border-color: #6e2157; color: white; width: 25% ; height:100%">Gönder</button></p>
+                </div>
+            </form>
+        </div>
+        <div class="form1">
+            <div>
+                @Html.TextAreaFor(x => x.Mesaj, new { @class = "form-control", @placeholder = "Mesaj:" })
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="contact-bottom">
+            <div class="contact-left" style="flex-direction: column;">
+                <div class="contact-add">
+                    <h3>Sosyal Medya Hesaplarım</h3>
+                    <div class="logo" >
+                        <ol>
+                            <li><a href="https://www.linkedin.com/in/ahmet-hilmi-ciloglu-884012203/"><img src="https://i.hizliresim.com/axjk7j7.png" alt="" style="width: 30px; height:30px "   /></a></li>
+                            <li><a href="https://github.com/hlmclgl"><img src="https://i.hizliresim.com/bfxemnj.png" alt="" style="width: 30px; height:30px " /></a></li>
+                            <li><a href="https://www.instagram.com/hilmi_ciloglu/"><img src="https://i.hizliresim.com/gq947mp.png" alt="" style="width: 30px; height:30px " /></a></li>
+                            <li><a href="https://www.instagram.com/hilmi_ciloglu/"><img src="https://i.hizliresim.com/limdge3.png" alt="" style="width: 30px; height:30px " /></a></li>
+                            <li><p>Email:<a href="mailto:signup@gmail.com">hlmclgl@gmail.com</a></p></li>
+                        </ol>
+                        
+                        
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192694.7532987828!2d28.905308977832032!3d41.0065354051513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f190a9cea8f%3A0xd3862ea8248d08a0!2sAn%C4%B1tkabir!5e0!3m2!1str!2str!4v1659796459042!5m2!1str!2str" width="580" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
