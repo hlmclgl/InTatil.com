@@ -18,27 +18,27 @@
 
 <h2>Project Screenshots:</h2>
 <p >HomePage : </p>
-<p align="center"><img src="https://i.hizliresim.com/61ex8ri.png " alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/61ex8ri.png " alt="project-screenshot" width="900" height="550/"></p>
 
 <p >HomePage Continue : </p>
-<p align="center"><img src="https://i.hizliresim.com/p87dhs7.png" alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/p87dhs7.png" alt="project-screenshot" width="900" height="550/"></p>
 
 <p align="center">My travel blog that I developed using C# and Mvc. I have been actively using this block for a while. I've taken it off the air recently because I haven't been able to make time to travel </p>
 
 <p >All Blogs : </p>
-<p align="center"><img src="https://i.hizliresim.com/hysnlo8.png" alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/hysnlo8.png" alt="project-screenshot" width="900" height="550/"></p>
 
 <p >Communication Page : </p>
-<p align="center"><img src="https://i.hizliresim.com/fstotex.png" alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/fstotex.png" alt="project-screenshot" width="900" height="550/"></p>
 
 <p >Blog Comment Section : </p>
-<p align="center"><img src="https://i.hizliresim.com/1mw35wg.png" alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/1mw35wg.png" alt="project-screenshot" width="900" height="750/"></p>
 
 <p >Admin Login Page : </p>
-<p align="center"><img src="https://i.hizliresim.com/tuymhkl.png" alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/tuymhkl.png" alt="project-screenshot" width="900" height="550/"></p>
 
 <p >Blog Management Panel : </p>
-<p align="center"><img src="https://i.hizliresim.com/n2xdds0.png" alt="project-screenshot" width="400" height="400/"></p>
+<p align="center"><img src="https://i.hizliresim.com/n2xdds0.png" alt="project-screenshot" width="900" height="450/"></p>
 
   
   
